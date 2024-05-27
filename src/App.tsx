@@ -4,7 +4,7 @@ import HomeContent from './components/HomeContent'
 function App() {
 
   return (
-    <div>
+    <div className='bg-slate-700'>
       <NavBar />
       <HomeContent />
     </div>
