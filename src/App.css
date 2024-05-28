@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-.App {
-  padding-top: 2rem;
-  /* background-color: #1A1C23; */
+:root {
+  background: linear-gradient(to right, #004c84, #245f85, #004276);
+  scroll-behavior: smooth;
 }
