@@ -2,7 +2,7 @@
 function Expertise() {
 
     return (
-        <div id="expertise" className="flex flex-col items-center justify-center bg-gradient-to-r from-[#00304f] via-[#0d364d] to-[#002440] h-fit">
+        <div id="expertise" className="flex flex-col items-center justify-center bg-gradient-to-r from-[#00304f] via-[#0d364d] to-[#002440] h-fit pt-60 md:pb-60">
             <div className="text-5xl md:text-8xl font-mono font-bold text-[#FFFF] mt-5">
                 <span>My Expertise</span>
             </div>
@@ -19,7 +19,7 @@ function Expertise() {
                     <div>
                         <span className="">Backend Development: Golang, Node.js, Rust, Python</span>
                     </div>
-                    <p className="mt-3 font-sans text-base md:text-xl text-[#d1b2f0]">Enthusiastic about microservices, backend systems, networking, cloud computing, and Linux. With over a year of experience, I specialize in designing robust backend architectures and developing scalable microservices.</p>
+                    <p className="mt-3 font-sans text-base md:text-xl text-[#d1b2f0]">Enthusiastic about microservices, backend systems, networking, cloud computing, and Linux. With over a year of experience.</p>
                 </div>
             </div>
         </div>
