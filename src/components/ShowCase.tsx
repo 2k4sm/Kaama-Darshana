@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-
+import background from '../assets/p2.png'
 
 function ShowCase() {
 
@@ -15,7 +15,7 @@ function ShowCase() {
     }, [])
 
     return (
-        <div className="flex flex-col justify-center items-center w-full">
+        <div className="flex flex-wrap flex-col justify-center items-center w-full">
             {repos.map((repo: {
                 author: string,
                 description: string,
@@ -25,13 +25,29 @@ function ShowCase() {
                 stars: number
             }) => {
                 return (
-                    <div className="bg-slate-600 p-10 rounded-lg m-1 w-full h-96">
-                        <div>{repo.author}</div>
-                        <div>{repo.name}</div>
-                        <div>{repo.description}</div>
-                        <div>{repo.language}</div>
-                        <div>{repo.forks}</div>
-                        <div>{repo.stars}</div>
+                    <div className="p-10 rounded-lg m-1 w-full h-fit flex flex-col justify-between" style={{
+                        backgroundImage: `linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0.7)), url(${background})`,
+                        backgroundPosition: "center",
+                        backgroundAttachment: 'fixed',
+                        backgroundSize: "cover",
+                        backgroundRepeat: "no-repeat",
+                    }}>
+                        <div className="md:flex justify-between">
+                            <header>
+                                <div className="text-3xl md:text-5xl font-bold text-slate-200">{repo.name}</div>
+                                <div className="text-xl md:text-3xl text-slate-400 md:w-[70%]">{repo.description}</div>
+
+                            </header>
+                            <main className="text-center text-slate-200 pt-3 md:w-44">
+                                <div className="text-xl md:text-3xl text-emerald-500">{repo.language}</div>
+                                <div className="text-base md:text-lg">Forks: {repo.forks}</div>
+                                <div>Stars: {repo.stars}</div>
+                            </main>
+                        </div>
+
+                        <footer>
+                            <div className="text-xl md:text-3xl text-lime-500">{repo.author}</div>
+                        </footer>
                     </div>
                 )
             })}
