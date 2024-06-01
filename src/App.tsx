@@ -2,8 +2,10 @@ import './App.css'
 import NavBar from './components/NavBar'
 import HomeContent from './components/HomeContent'
 import Expertise from './components/Expertise'
-import Work from './components/Work'
+import Me from './components/Me'
 import background from './assets/p1.jpg'
+import ShowCase from "./components/ShowCase";
+
 function App() {
 
   return (
@@ -19,9 +21,11 @@ function App() {
 
         <HomeContent />
 
+        <Me />
+
         <Expertise />
 
-        <Work />
+        <ShowCase />
       </div>
 
     </div>
