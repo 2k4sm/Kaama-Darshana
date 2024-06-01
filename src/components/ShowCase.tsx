@@ -31,7 +31,7 @@ function ShowCase() {
             ) => {
                 return (
                     <div className="p-10 rounded-lg m-1 w-full h-fit flex flex-col justify-between backdrop-blur" style={{
-                        backgroundImage: `linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url(${background})`,
+                        backgroundImage: `linear-gradient(to right, rgba(0,0,0,1.0), rgba(0,0,0,0.0)), url(${background})`,
                         backgroundPosition: "center",
                         backgroundAttachment: 'fixed',
                         backgroundSize: "cover",

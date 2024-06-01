@@ -41,7 +41,7 @@ function NavBar() {
                     <li className="w-fit m-1 sm:m-4 text-[#c74b7c]"><a href="#home">//home</a></li>
                     <li className="w-fit m-1 sm:m-4 text-[#b95093]"><a href="#me">//me</a></li>
                     <li className="w-fit m-1 sm:m-4 text-[#b95093]"><a href="#expertise">//expertise</a></li>
-                    <li className="w-fit m-1 sm:m-4 text-[#9b4d9b]"><a href="/experience">//experience</a></li>
+                    <li className="w-fit m-1 sm:m-4 text-[#9b4d9b]"><a href="#experience">//experience</a></li>
                     <li className="w-fit m-1 sm:m-4 text-[#5a2f83]"><a href="/contact">//contact</a></li>
                 </ul>
             </nav>

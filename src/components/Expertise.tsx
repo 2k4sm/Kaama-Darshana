@@ -6,7 +6,7 @@ function Expertise() {
     return (
         <div id="expertise" className="flex flex-col items-center justify-center bg-gradient-to-r from-[#00304f] via-[#0d364d] to-[#002440] h-fit">
             <div className="flex flex-col md:items-center h-fit w-full xl:pt-24 p-5 md:p-20">
-                <span className="w-[25%] text-8xl md:text-9xl font-mono font-bold text-[#FFFF]">My Forte</span>
+                <span className="xl:w-[33%] text-8xl md:text-9xl font-mono font-bold text-[#FFFF]">My Forte</span>
             </div>
 
             <div className="flex flex-wrap md:flex md:flex-wrap justify-center m-2 text-[#FFFF]">

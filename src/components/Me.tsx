@@ -3,7 +3,7 @@ import { Alignment, Fit, Layout, useRive } from "@rive-app/react-canvas";
 function Work() {
 
     const { RiveComponent } = useRive({
-        src: '/public/home_page.riv',
+        src: 'home_page.riv',
         stateMachines: 'State Machine 1',
         layout: new Layout({ fit: Fit.Contain, alignment: Alignment.Center }),
         autoplay: true,

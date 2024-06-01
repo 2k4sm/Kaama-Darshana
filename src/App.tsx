@@ -5,6 +5,7 @@ import Expertise from './components/Expertise'
 import Me from './components/Me'
 import background from './assets/p1.jpg'
 import ShowCase from "./components/ShowCase";
+import Experience from './components/Experience'
 
 function App() {
 
@@ -26,6 +27,8 @@ function App() {
         <Expertise />
 
         <ShowCase />
+
+        <Experience />
       </div>
 
     </div>
