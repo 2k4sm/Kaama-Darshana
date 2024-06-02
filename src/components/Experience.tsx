@@ -15,7 +15,7 @@ function Experience() {
             <div className="text-7xl md:text-9xl font-mono font-bold text-[#FFFF]">
                 <p>My Experience</p>
             </div>
-            <Accordion type="single" collapsible className="w-full xl:w-[75%] m-6">
+            <Accordion type="single" collapsible className="w-full xl:w-[75%] m-6 xl:pb-48">
                 <AccordionItem value="item-1" className="border-b-0">
                     <AccordionTrigger className="bg-[#420d78] m-2 rounded-lg p-5 text-slate-100 hover:no-underline">
                         <div className="flex flex-row justify-between w-full h-full p-5 pt-0 pb-0">
@@ -84,11 +84,11 @@ function Experience() {
                                 </div>
                             </div>
                             <div>
-                                <div className="flex justify-evenly gap-1">
+                                <div className="flex justify-center gap-1">
                                     <div className="rounded-full bg-[#6391ca] w-full h-fit p-2 text-center">Python</div>
                                     <div className="rounded-full bg-[#6391ca] w-full h-fit p-2 text-center">Git</div>
                                     <div className="rounded-full bg-[#6391ca] w-full h-fit p-2 text-center">Docker</div>
-                                    <div className="rounded-full bg-[#6391ca] w-full h-fit p-2 text-center">go-lang</div>
+                                    <div className="rounded-full bg-[#6391ca] w-full h-fit p-2 text-center">go</div>
                                     <div className="rounded-full bg-[#6391ca] w-full h-fit p-2 text-center">Java</div>
                                     <div className="rounded-full bg-[#6391ca] w-full h-fit p-2 text-center">Rust</div>
                                 </div>

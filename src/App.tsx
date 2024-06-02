@@ -6,6 +6,7 @@ import Me from './components/Me'
 import background from './assets/p1.jpg'
 import ShowCase from "./components/ShowCase";
 import Experience from './components/Experience'
+import Contact from './components/Contact'
 
 function App() {
 
@@ -29,6 +30,8 @@ function App() {
         <ShowCase />
 
         <Experience />
+
+        <Contact />
       </div>
 
     </div>

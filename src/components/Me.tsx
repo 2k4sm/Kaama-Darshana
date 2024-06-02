@@ -1,6 +1,6 @@
 import { Alignment, Fit, Layout, useRive } from "@rive-app/react-canvas";
 
-function Work() {
+function Me() {
 
     const { RiveComponent } = useRive({
         src: 'home_page.riv',
@@ -32,4 +32,4 @@ function Work() {
     )
 }
 
-export default Work;
+export default Me;
