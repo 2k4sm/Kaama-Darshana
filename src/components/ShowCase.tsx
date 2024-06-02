@@ -15,7 +15,7 @@ function ShowCase() {
     }, [])
     const baselink = "https://github.com/2k4sm/"
     return (
-        <div className="bg-gradient-to-r from-[#00304f] via-[#0d364d] to-[#002440]  h-fit p-5 md:p-20 pt-36 max-w-screen flex flex-col justify-center items-center w-full">
+        <div id="showcase" className="bg-gradient-to-r from-[#00304f] via-[#0d364d] to-[#002440]  h-fit p-5 md:p-20 pt-36 max-w-screen flex flex-col justify-center items-center w-full">
             <div className="flex flex-col h-fit w-full xl:pt-24">
                 <span className="w-[25%] text-8xl md:text-9xl font-mono font-bold text-[#FFFF]">My Work</span>
             </div>
