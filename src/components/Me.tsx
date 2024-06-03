@@ -20,8 +20,7 @@ function Me() {
                         <p className="mb-7">
                             I enjoy backend development, cybersecurity, DevOps, cloud computing, and web development. Currently, I'm learning microservices in Golang, Spring Boot/FastAPI, data structures, databases, and middlewares.                        </p>
                         <p>
-                            In my free time, I love listening to rock music, playing video games, and discovering new technologies. My goals are to stay curious, learn continuously, embrace mistakes, and be happy.
-                        </p>
+                        In my free time, I love immersing myself in rock music, diving into video games, and exploring new technologies. My goals are to remain curious, expand my knowledge and skills, embrace mistakes, and find happiness in the journey.</p>
                     </div>
                 </div>
                 <div className="text-center">
